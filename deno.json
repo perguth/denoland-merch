@@ -45,9 +45,9 @@
     "@tanstack/react-virtual": "https://esm.sh/@tanstack/react-virtual@latest?alias=react:preact/compat,react-dom:preact/compat",
     "@react-aria/interactions": "https://esm.sh/@react-aria/interactions@latest?alias=react:preact/compat,react-dom:preact/compat",
     "@react-aria/focus": "https://esm.sh/@react-aria/focus@latest?alias=react:preact/compat,react-dom:preact/compat",
-    "preact/hooks": "https://esm.sh/preact@10.24.3/hooks",
-    "react": "https://esm.sh/preact@10.24.3/compat",
-    "react-dom": "https://esm.sh/preact@10.24.3/compat"
+    "preact/hooks": "https://esm.sh/preact@10.22.0/hooks",
+    "react": "https://esm.sh/preact@10.22.0/compat",
+    "react-dom": "https://esm.sh/preact@10.22.0/compat"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
