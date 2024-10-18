@@ -13,7 +13,7 @@ import {
   TabPanels,
 } from "@headlessui/react";
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { DialogBackdrop } from './DialogBackdrop.tsx'
+import { DialogBackdrop } from '../components/DialogBackdrop.tsx'
 
 const navigation = {
   categories: [

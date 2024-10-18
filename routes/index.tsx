@@ -3,7 +3,7 @@ import { formatCurrency } from '@/utils/data.ts'
 import { graphql } from '@/utils/shopify.ts'
 import { Footer } from '@/components/Footer.tsx'
 import { HeadElement } from '@/components/HeadElement.tsx'
-import { Header } from '@/components/Header.tsx'
+import { Header } from '../islands/Header.tsx'
 import IconCart from '@/components/IconCart.tsx'
 import { List, Product } from '../utils/types.ts'
 

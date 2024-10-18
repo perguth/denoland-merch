@@ -8,6 +8,7 @@ import * as $index from './routes/index.tsx'
 import * as $products_product_ from './routes/products/[product].tsx'
 import * as $AddToCart from './islands/AddToCart.tsx'
 import * as $Cart from './islands/Cart.tsx'
+import * as $Header from './islands/Header.tsx'
 import * as $ProductDetails from './islands/ProductDetails.tsx'
 import type { Manifest } from '$fresh/server.ts'
 
@@ -21,6 +22,7 @@ const manifest = {
   islands: {
     './islands/AddToCart.tsx': $AddToCart,
     './islands/Cart.tsx': $Cart,
+    './islands/Header.tsx': $Header,
     './islands/ProductDetails.tsx': $ProductDetails,
   },
   baseUrl: import.meta.url,
