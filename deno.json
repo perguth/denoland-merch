@@ -47,7 +47,9 @@
     "@react-aria/focus": "https://esm.sh/@react-aria/focus@latest?alias=react:preact/compat,react-dom:preact/compat",
     "preact/hooks": "https://esm.sh/preact@10.22.0/hooks",
     "react": "https://esm.sh/preact@10.22.0/compat",
-    "react-dom": "https://esm.sh/preact@10.22.0/compat"
+    "react-dom": "https://esm.sh/preact@10.22.0/compat",
+
+    "@heroicons/react/24/outline": "https://esm.sh/@heroicons/react@2.1.5/24/outline"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
