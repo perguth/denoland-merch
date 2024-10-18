@@ -28,28 +28,27 @@
     "old/*"
   ],
   "imports": {
+    "@/": "./",
+
     "$fresh/": "https://deno.land/x/fresh@1.7.2/",
     "preact": "https://esm.sh/preact@10.22.0",
     "preact/": "https://esm.sh/preact@10.22.0/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "tailwindcss": "npm:tailwindcss@3.4.1",
-    "tailwindcss/": "npm:/tailwindcss@3.4.1/",
-    "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
     "$std/": "https://deno.land/std@0.216.0/",
     "swr": "https://esm.sh/v98/swr@1.3.0?alias=react:preact/compat&external=preact/compat",
-    "@/": "./",
+    
+    "@heroicons/react/24/outline": "https://esm.sh/@heroicons/react@2.1.5/24/outline?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
+    "@headlessui/react": "https://esm.sh/@headlessui/react@2.1.10?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
+    "@floating-ui/react": "https://esm.sh/@floating-ui/react@latest?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
+    "@tanstack/react-virtual": "https://esm.sh/@tanstack/react-virtual@latest?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
+    "@react-aria/interactions": "https://esm.sh/@react-aria/interactions@latest?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
+    "@react-aria/focus": "https://esm.sh/@react-aria/focus@latest?alias=react:preact/compat,react-dom:preact/compat&external=react,react-dom",
 
-    "@headlessui/react": "https://esm.sh/*@headlessui/react@2.1.10?external=react,react-dom&alias=@types/react:preact/compat",
-    "@floating-ui/react": "https://esm.sh/@floating-ui/react@latest?alias=react:preact/compat,react-dom:preact/compat",
-    "@tanstack/react-virtual": "https://esm.sh/@tanstack/react-virtual@latest?alias=react:preact/compat,react-dom:preact/compat",
-    "@react-aria/interactions": "https://esm.sh/@react-aria/interactions@latest?alias=react:preact/compat,react-dom:preact/compat",
-    "@react-aria/focus": "https://esm.sh/@react-aria/focus@latest?alias=react:preact/compat,react-dom:preact/compat",
     "preact/hooks": "https://esm.sh/preact@10.22.0/hooks",
     "react": "https://esm.sh/preact@10.22.0/compat",
-    "react-dom": "https://esm.sh/preact@10.22.0/compat",
-
-    "@heroicons/react/24/outline": "https://esm.sh/@heroicons/react@2.1.5/24/outline"
+    "react-dom": "https://esm.sh/preact@10.22.0/compat"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
